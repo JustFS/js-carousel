@@ -1,0 +1,22 @@
+{
+  "name": "starting_file",
+  "version": "1.0.0",
+  "description": "Wesh alors :)",
+  "main": "js.js",
+  "scripts": {
+    "sass": "sass --watch ./main.scss:./style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KobeKenjo/basic_project_file.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KobeKenjo/basic_project_file/issues"
+  },
+  "homepage": "https://github.com/KobeKenjo/basic_project_file#readme",
+  "dependencies": {
+    "swiper": "^5.4.2"
+  }
+}

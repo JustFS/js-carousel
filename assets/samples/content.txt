@@ -1,0 +1,93 @@
+****************** HTML *******************
+<main>
+    <div class="adapt" id="adapt">
+      <div class="dummy-adapt">
+      <h1>Adapt</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus magni animi autem adipisci fugit! Id fugiat doloribus similique itaque inventore aperiam magni officia quibusdam libero, culpa dolor mollitia quam ex aut ipsam excepturi sed voluptate laudantium doloremque! Officiis, repellendus labore?</p><br/>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam unde quis quam, alias nobis ut voluptatum iste totam. Explicabo aliquid magnam iure incidunt dolor beatae laudantium quia qui dolore facilis maxime quae deleniti fuga eum dicta numquam, veniam ea obcaecati modi?</p>
+      </div>
+      <img src="/media/svg/undraw_digital_currency_qpak.svg" alt="">
+
+    </div>
+
+    <div class="improvise" id="improvise">
+      <h1>Improvise</h1>
+      <div class="dummy-improvise">
+        <img src="/media/svg/undraw_nakamoto_2iv6.svg" alt="">
+        <div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus magni animi autem adipisci fugit! Id fugiat doloribus similique itaque inventore aperiam magni officia quibusdam libero, culpa dolor mollitia quam ex aut ipsam excepturi sed voluptate laudantium doloremque! Officiis, repellendus labore?</p><br/>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum at, eum maxime enim blanditiis harum inventore, officia non eveniet repellendus expedita dolore ipsam explicabo exercitationem magni repudiandae perspiciatis consequuntur, debitis consequatur ea omnis? Quo natus velit, exercitationem aut nesciunt, molestiae doloremque facilis soluta qui tenetur pariatur quis, alias rem ut modi beatae at nisi illo officiis corrupti incidunt! Velit cum accusamus nobis, recusandae dignissimos laboriosam ratione fugit alias soluta nesciunt similique.</p>
+        </div>
+      </div>
+
+    </div>
+    <div class="overcome" id="overcome">
+      <h1>Overcome</h1>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam, id dolorum. Quo saepe deleniti excepturi inventore sapiente, quos, facilis qui tempore quam fugit eius itaque repellendus impedit praesentium delectus vero. Culpa magni expedita quis fugit! Corporis voluptatum accusantium recusandae, distinctio voluptas hic quis temporibus non assumenda doloribus modi consequatur harum maxime optio nesciunt accusamus totam magni inventore. Facilis quos at earum eius perferendis quas optio nulla hic impedit necessitatibus numquam illo sed error harum, corporis suscipit obcaecati laborum minima vel quod. Aperiam magnam error, libero pariatur dolor inventore vel sed minima, nam officiis ut reiciendis eaque omnis deserunt nulla voluptatibus? Aperiam assumenda amet unde praesentium est quos suscipit eum ab accusantium itaque placeat beatae ea, perspiciatis, provident adipisci dolorum corrupti earum numquam libero. Debitis velit veritatis facere magnam?</p>
+      <img src="/media/svg/undraw_financial_data_es63.svg" alt="">
+    </div>
+  </main>
+
+
+******************* CSS *********************
+h1 {
+  padding: 1.5rem;
+}
+p {
+  text-align: justify;
+}
+p::first-letter {
+  font-size: 1.5rem;
+  color: rgb(0, 144, 216);
+}
+.adapt {
+  display: flex;
+  padding: 6rem 1rem 1rem 0;
+  margin-bottom: 3rem;
+}
+.dummy-adapt {
+  padding: 2rem 2rem 2rem 0;
+}
+.adapt img {
+  width: 50%;
+}
+.improvise {
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+.improvise h1 {
+  text-align: right;
+  padding-right: 17%;
+}
+.improvise img {
+  width: 60%;
+  padding: 2rem;
+}
+.dummy-improvise {
+  display: flex;
+}
+.overcome {
+  padding: 2rem;
+  background: rgba(52, 187, 255, 0.287);
+}
+.overcome h1 {
+  text-align: center;
+}
+.overcome img {
+  width: 90%;
+}
+
+@media screen and (min-width: 1000px) {
+  main {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .nav-elements {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 999px) {
+  main {
+    padding: 0 2rem;
+  }
+}

@@ -1,0 +1,71 @@
+**************** HTML *******************
+
+  <nav id="navbar">
+    <div class="nav-elements" id="nav-elements">
+      <h2><a href="#">lorem ipsum</a></h2>
+      <ul class="nav-links">
+        <li><a href="#adapt">Adapt</a></li>
+        <li><a href="#improvise">Improvise</a></li>
+        <li><a href="#overcome">Overcome</a></li>
+      </ul>
+    </div>
+  </nav>
+
+
+****************** CSS *******************
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
+  background: #eee;
+}
+nav {
+  width: 100%;
+  background: #34BDFF;
+  box-shadow: 0 0 3px #333;
+  position: fixed;
+}
+.nav-elements {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+  height: 10vh;
+}
+.nav-elements a {
+  color: #333;
+  text-decoration: none;
+}
+.nav-elements a:visited {
+  color: #333;
+}
+.nav-elements h2 {
+  transition: all .3s ease-in-out;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.nav-links, h2 {
+  flex: 1;
+  color: #333;
+}
+.nav-links li {
+  padding: 1rem;
+  transition: all 0.2s ease;
+}
+.nav-elements h2:hover {
+  font-weight: 100;
+}
+.nav-links li:hover {
+  transform: translateX(5px);
+  font-weight: bold;
+}
