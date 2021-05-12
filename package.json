@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/KobeKenjo/basic_project_file#readme",
   "dependencies": {
-    "swiper": "^5.4.2"
+    "swiper": "^6.5.1"
   }
 }
